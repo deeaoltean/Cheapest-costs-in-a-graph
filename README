@@ -1,0 +1,16 @@
+ Project: Homework3 Data Structures
+ Name: OLTEAN ANDREEA-DIANA
+ Group: 314CD
+
+    Functions:
+createGraphAdjList  ------> Allocate memory for a new graph and initialize
+                            the number of nodes of the graph.
+addEdgeList ------> Add a new edge into the graph which means that we add the
+                    two nodes in the list of each one. The nodes are added at
+                    the beginning of the list.
+
+bfsGL ------> Breadth first search. The elements of the graph are added into
+              the queue, only if it was not visited before.
+c_edgeCase  ------> Determine the number of conex elements and calculate the
+                    minimum cost of a route.
+destroyGraphAdjList ------> Frees all the memory from a graph.
